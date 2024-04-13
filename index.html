@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT Platform</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#"><img src="logo.png" alt="OTT Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Category</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Latest</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">More</a>
+            </li>
+        </ul>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-5">
+    <h1>Watch Anytime, Anywhere</h1>
+    <div id="carouselExampleControls" class="carousel slide mt-4 mb-4" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1200x400/?movies" alt="Latest Movie">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1200x400/?tv-show" alt="Popular TV Show">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1200x400/?sports" alt="Live Sports">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1200x400/?web-series" alt="Trending Web Series">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- Body Content -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <h3>Latest Movies</h3>
+            <img src="https://source.unsplash.com/300x400/?movie" alt="Movie" class="img-fluid rounded mb-2">
+            <p>Movie 1</p>
+        </div>
+        <div class="col-md-3">
+            <h3>Popular Serials</h3>
+            <img src="https://source.unsplash.com/300x400/?tv-series" alt="TV Series" class="img-fluid rounded mb-2">
+            <p>Serial 1</p>
+        </div>
+        <div class="col-md-3">
+            <h3>Live Sports</h3>
+            <img src="https://source.unsplash.com/300x400/?sports" alt="Sports" class="img-fluid rounded mb-2">
+            <p>Cricket Match</p>
+        </div>
+        <div class="col-md-3">
+            <h3>Trending Web Series</h3>
+            <img src="https://source.unsplash.com/300x400/?web-series" alt="Web Series" class="img-fluid rounded mb-2">
+            <p>Web Series 1</p>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Address</h5>
+                <p>789 OTT St, City, Country</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <p>Email: support@ottplatform.com<br>Phone: +1234567890</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Associates</h5>
+                <p>Associate 1<br>Associate 2</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>&copy; 2024 OTT Platform. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
